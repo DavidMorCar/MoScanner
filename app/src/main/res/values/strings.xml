@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Example</string>
+    <string name="name">name</string>
+    <string name="connected">Connected</string>
+    <string name="connect">Connect</string>
+    <string name="search">Search</string>
+    <string name="Scan">Scan</string>
+    <string name="local_name">Local Name:</string>
+    <string name="data">Manufacturer Data:</string>
+    <string name="UUID">UUID:</string>
+    <string name="address">Address:</string>
+    <string name="characteristics">Characteristics</string>
+</resources>

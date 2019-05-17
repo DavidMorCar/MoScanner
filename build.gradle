@@ -1,0 +1,82 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://maven.fabric.io/public' }
+        
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.1'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+        classpath 'com.google.gms:google-services:4.2.0'
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+// Define versions in a single place
+ext {
+    // Sdk and tools
+    minSdkVersion = 19
+    targetSdkVersion = 28
+    compileSdkVersion = 28
+
+    // App dependencies
+    androidArchVersion = '1.1.1'
+    room_version = "1.1.1"
+    supportLibraryVersionApp = '28.0.0'
+    firebaseAuthVersion = '16.0.3'
+    firebaseDatabaseVersion = '16.0.1'
+    firebaseMessagingVersion = '17.3.0'
+    firebaseStorageVersion = '16.0.1'
+    autPlayServicesVersion = '16.0.0'
+    fbLoginVersion = '4.29.0'
+    tedpermissionVersion = '2.2.2'
+    gmsVersion = '15.0.1'
+    googlePlacesVersion = '15.0.1'
+    constraintLayoutVersion = '1.1.3'
+    jodaTimeVersion = '2.9.7'
+    daggerVersion = '2.15'
+    butterknifeVersion = '8.8.1'
+    gsonVersion = '2.6.2'
+    guavaVersion = '18.0'
+    junitVersion = '4.12'
+    mockitoVersion = '1.10.19'
+    powerMockito = '1.6.2'
+    hamcrestVersion = '1.3'
+    runnerVersion = '1.0.1'
+    rulesVersion = '0.5'
+    espressoVersion = '3.0.1'
+    rxjavaVersion = '2.1.9'
+    rxandroidVersion = '2.0.2'
+    retrofitVersion = '2.3.0'
+    broadcastReceiverVersion = '1.0.4'
+    spinKitVersion = '1.2.0'
+    awesomeValidationVersion = '4.2'
+    crashlyticsVersion = '2.9.1@aar'
+    glideVersion = '4.7.1'
+    stepOneVersion = '4.3.1'
+    textDrawableVersion = '1.0.1'
+    intlphoneinputVersion = '1.0.1'
+    firebaseUIStorageVersion = '4.1.0'
+    libphonenumber = '8.2.0'
+    phonemask = '1.0.5'
+    edittextVersion = '1.0.1'
+    imagePickerVersion = '1.3.0'
+    cropiwa = '1.0.3'
+}
