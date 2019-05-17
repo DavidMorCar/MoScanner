@@ -8,3 +8,6 @@ Tecnologies
 
 Impediments
 - Knowledge of the bluetooth package: I could not use the UUID and get its features.
+
+Building instructions
+- If any error or problem appears, you must clean and rebuild the project. 
